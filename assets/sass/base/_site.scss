@@ -37,9 +37,6 @@ outline: none!important;
 .btn {
   padding: 0.75rem 1rem !important;
 }
-#prosecco-wall .pl-5{
-  padding-left:0px!important;
-}
 }
 .newnavbar.solidnav{
   min-height: initial;
@@ -49,6 +46,9 @@ outline: none!important;
 @media (min-width:426px){
   .order-first{
     order: 0!important;
+  }
+  #prosecco-wall .content{
+    padding-left: 3rem;
   }
 }
 

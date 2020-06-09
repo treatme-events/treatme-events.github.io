@@ -1,0 +1,26 @@
+.project {
+    max-width: 340px!important;
+    margin: 15px;
+}
+.project-image {
+    height: 520px;
+    border-radius: 3px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // text-align: center;
+    position: relative;
+}
+.project-name {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.15;
+}
+.project-wrapper{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 1.25rem;
+
+  }

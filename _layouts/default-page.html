@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <div class="page-wrapper">
+
+    {% include header-main.html %}
+
+    <div class="splash-60" id="hero-header"
+      style="background-image: url({{site.baseurl}}/assets/images/banners/{{page.img}}); background-size: cover;position: relative;">
+
+      <div class="splash-video-wrapper">
+        {% if page.color-1 %}
+        <div
+          style="background-image: linear-gradient(to bottom right, #{{ page.color-1 | escape }}, #{{ page.color-2 | escape }});"
+          class="project-image-gradient"></div>
+        {% else %}
+        <div style="background-image: linear-gradient(270deg,#00d0ff,#036aed);" class="project-image-gradient"></div>
+        {% endif %}
+
+        {% if page.video %}
+        <video class="splash-video" playsinline="" autoplay="" muted="" loop=""
+          poster="{{site.baseurl}}/assets/images/banners/{{page.img}}" id="bgvid">
+          <source class="splash-video" src="{{site.baseurl}}/assets/video/{{page.video}}" type="video/mp4">
+        </video>
+        {% endif %}
+
+      </div>
+
+
+      <div class="splash-overlay container">
+        <div class="header-content-container">
+          <div class="splash-headline">
+            <h1 class="page-title text-white">{{ page.title }}</h1>
+            <p class="description text-white mt-2 ml-0">{{ page.description | escape }}</p>
+            <!-- <h2 class="project-subtitle">{{ page.subtitle }}</h2>
+           
+            <p class="date">{{ page.date | date_to_long_string }}</p>
+            <div class="badge mt-2">
+              <span style="background-color: #{{page.color-1}};">{{ page.category-type }}</span>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="post container mt-5">
+      {{ content }}
+    </div>
+
+    <!-- related posts -->
+    <div class="jumbotron relatedPages jumbotron-fluid bg-light mb-0">
+      <div class="container">
+        <h4 class="text-center mb-3 text-capitalize" style="color: #c1bebe;">Related {{ page.category-type }} Pages
+        </h4>
+        <div class="row justify-content-md-center mr-0 ml-0">
+
+          {% assign maxRelated = 2 %}
+          {% assign minCommonTags =  1 %}
+          {% assign maxRelatedCounter = 0 %}
+
+          {% for post in site.pages %}
+
+          {% assign sameTagCount = 0 %}
+          {% assign commonTags = '' %}
+
+          {% for tag in post.category-type %}
+          {% if post.url != page.url %}
+          {% if page.category-type contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+
+          {% if sameTagCount >= minCommonTags %}
+          <div class="project col-md-6 pr-0 pl-0">
+            <a href="{{ post.url }}">
+              <div class="project-image"
+                style="background-image: url({{site.baseurl}}/assets/images/banners/{{post.img}});">
+                <div
+                  style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
+                  class="project-image-gradient"></div>
+
+                  <div class="project-wrapper">
+                    <p class="text-light"><span style="color: #2d8bff;">{{ post.category-type }}</span> |
+                        {{ page.date | date_to_long_string }}</p>
+
+                    <div class="description text-light mt-2">
+                        {{ post.description | truncate: 90}}
+                    </div>
+                </div>
+
+                <!-- <div class="project-name">
+                  {{ post.title | escape }}
+                  <div class="subtitle mt-2">
+                    {{ post.subtitle | escape}}
+                  </div>
+                  <div class="badge mt-2">
+                    <span style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
+                  </div>
+                </div> -->
+
+              </div>
+            </a>
+          </div>
+          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+          {% break %}
+          {% endif %}
+          {% endif %}
+
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
+</html>

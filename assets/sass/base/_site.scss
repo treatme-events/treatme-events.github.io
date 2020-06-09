@@ -1,0 +1,57 @@
+/**
+ * Site styling
+ */
+
+ .center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .soft-edges{
+  border-radius: .3rem;
+ }
+
+ .navbar-toggler,  .navbar-toggler:focus, .navbar-toggler:hover  {
+border:none!important;
+outline: none!important;
+ }
+ .solidnav .icon-bar {
+  background-color: #efa967 !important;
+}
+
+.newnavbar{
+  min-height: 125px;
+  transition: ease all .3s;
+}
+@media (max-width:425px){
+  .newnavbar{
+    min-height: 125px!important;
+  }
+  #social .facebook-button{
+    margin-right:0px!important;
+  }
+  .modal-footer>* {
+    display: inline-grid!important;
+    font-size: .9rem!important;
+}
+.btn {
+  padding: 0.75rem 1rem !important;
+}
+}
+.newnavbar.solidnav{
+  min-height: initial;
+  transition: ease all .3s;
+}
+
+@media (min-width:426px){
+  .order-first{
+    order: 0!important;
+  }
+}
+
+p a:link, p a:visited {
+  border-bottom: 2px solid #efa967;
+}
+.no-border{
+  border:none!important;
+}

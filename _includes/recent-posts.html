@@ -1,0 +1,28 @@
+<div class="section-2 jumbotron jumbotron-fluid bg-white mb-0">
+    <div class="container">
+        <div class="row">
+            {% assign count = 0 %} {% for post in site.posts %}
+            {% assign count = count | plus:1 %}
+            <div class="col-lg-4 col-md-4">
+                <div class="project">
+                    <a href="{{ post.url }}">
+                        <div class="project-image"
+                            style="background-image: url({{site.baseurl}}/assets/images/banners/{{post.img}});">
+                            <div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
+                                class="project-image-gradient"></div>
+                            <div class="project-wrapper">
+                                <p class="text-light"><span style="color: #2d8bff;">{{ post.category-type }}</span> |
+                                    {{ page.date | date_to_long_string }}</p>
+
+                                <div class="description text-light mt-2">
+                                    {{ post.description | truncate: 90}}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% if count == 3 %}{% break %} {% endif %} {% endfor %}
+        </div>
+    </div>
+</div>

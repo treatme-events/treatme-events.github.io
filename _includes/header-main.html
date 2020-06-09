@@ -1,0 +1,81 @@
+<nav class="navbar newnavbar navbar-expand-lg solidnav">
+	<div class="container">
+		<a class="navbar-brand" href="/">
+			<img style="width: 130px;" src="{{ site.url }}/assets/images/brand/treat-me-logo.svg" alt="Treat Me Logo">
+		</a>
+
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContentLG" aria-controls="navbarSupportedContentLG" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="icon-bar top-bar"></span>
+			<span class="icon-bar middle-bar"></span>
+			<span class="icon-bar bottom-bar"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContentLG">
+			<ul class="navbar-nav mr-auto">
+
+			</ul>
+			<ul class="my-2 my-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="#doughnut-wall">🍩 The Doughnut Wall</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#prosecco-wall">🥂 The Prosecco Wall</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="modal" data-target="#contactUsModal" href="#contact-us">Contact Us</a>
+				</li>
+
+				
+
+				<!-- <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLG" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownLG">
+						<a class="dropdown-item" href="/default/">Default</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li> -->
+				<!-- <li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li> -->
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<script>
+	$(window).scroll(function () {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 50) {
+			$(".newnavbar").addClass("solidnav");
+		} else {
+			$(".newnavbar").removeClass("solidnav");
+		}
+	});
+</script>
+
+
+<script>
+	$(document).ready(function () {
+		$(".newnavbar").removeClass("solidnav");
+	});
+</script>
+
+<script>
+	$(".navbar-toggler").click(function () {
+
+		if (scroll <= 50) {
+			$(".newnavbar").toggleClass("solidnav");
+		} else {
+			$(".newnavbar").addClass("solidnav");
+		}
+
+	});
+</script>

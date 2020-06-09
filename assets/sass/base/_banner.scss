@@ -54,7 +54,7 @@
 
 .splash-full {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 75px);
   min-height: 480px;
   overflow: hidden;
 }
@@ -65,7 +65,6 @@
   width: 100vw;
   min-width: 177.77778vh;
   height: 100vh;
-  max-height: 200vw;
   min-height: 60vw;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);

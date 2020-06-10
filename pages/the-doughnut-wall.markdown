@@ -29,7 +29,7 @@ permalink: /the-doughnut-wall/
         </div>
     </div>
     <div class="col-12 col-sm-6 order-first mb-5">
-        <img class="image-shadow" style="width: 100%;" src="{{site.baseurl}}/assets/images/doughnuts/d0.jpg" alt="">
+        <img class="image-shadow" style="width: 100%;" src="{{site.baseurl}}/assets/images/doughnuts/d4.jpg" alt="">
     </div>
 </div>
 

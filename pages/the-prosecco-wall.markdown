@@ -1,6 +1,6 @@
 ---
 layout: default-page
-title:  "The Prosecco Wall 🥂"
+title:  "🥂 The Prosecco Wall"
 subtitle: "Hire for Private or Corporate events"
 seotitle: "The Prosecco Wall 🥂 Treat Me"
 category: jekyll post 

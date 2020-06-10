@@ -17,6 +17,10 @@ html {
   border-radius: .3rem;
 }
 
+.btn{
+  -webkit-appearance: button-bevel;
+}
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:hover {

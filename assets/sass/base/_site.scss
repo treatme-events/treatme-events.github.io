@@ -2,84 +2,102 @@
  * Site styling
  */
 
- .center{
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
- }
- .soft-edges{
-  border-radius: .3rem;
- }
+}
 
- .navbar-toggler,  .navbar-toggler:focus, .navbar-toggler:hover  {
-border:none!important;
-outline: none!important;
- }
- .solidnav .icon-bar {
+.soft-edges {
+  border-radius: .3rem;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  border: none !important;
+  outline: none !important;
+}
+
+.solidnav .icon-bar {
   background-color: #efa967 !important;
 }
 
-.newnavbar{
+.newnavbar {
   transition: ease all .3s;
 }
-@media (max-width:425px){
+
+@media (max-width:425px) {
   .navbar-brand {
-    padding-top: 1.3125rem!important;
-    padding-bottom: 1.3125rem!important;
+    padding-top: 1.3125rem !important;
+    padding-bottom: 1.3125rem !important;
   }
-  #social .facebook-button{
-    margin-right:0px!important;
+
+  #social .facebook-button {
+    margin-right: 0px !important;
   }
+
   .modal-footer>* {
-    font-size: .8rem!important;
+    font-size: .8rem !important;
+  }
+
+  .btn {
+    padding: 0.75rem 1rem !important;
+  }
 }
-.btn {
-  padding: 0.75rem 1rem !important;
-}
-}
-.newnavbar.solidnav{
+
+.newnavbar.solidnav {
   min-height: initial;
   transition: ease all .3s;
 }
 
-@media (min-width:426px){
-  .order-first{
-    order: 0!important;
+@media (min-width:426px) {
+  .order-first {
+    order: 0 !important;
   }
-  #prosecco-wall .content{
+
+  #prosecco-wall .content {
     padding-left: 3rem;
   }
 }
 
-p a:link, p a:visited {
+p a:link,
+p a:visited {
   border-bottom: 2px solid #efa967;
 }
-.no-border{
-  border:none!important;
+
+.no-border {
+  border: none !important;
 }
 
-.image-shadow{
+.image-shadow {
   box-shadow: 14px 14px #f2c396;
 }
 
-@media(max-width:425px){
-  .image-shadow{
+@media(max-width:425px) {
+  .image-shadow {
     box-shadow: 4px 4px #f2c396;
   }
 }
 
-@media(max-width:425px){
-  #doughnut-wall .pb-5{
-    padding-bottom:0px!important;
+@media(max-width:425px) {
+  #doughnut-wall .pb-5 {
+    padding-bottom: 0px !important;
   }
-  #prosecco-wall .pt-5{
-    padding-top:0px!important;
+
+  #prosecco-wall .pt-5 {
+    padding-top: 0px !important;
   }
 }
 
-.down-arrow{
+.down-arrow {
   position: absolute;
   bottom: 10px;
   right: 50%;
-  transform: translate(50%,-50%);
+  transform: translate(50%, -50%);
 }

@@ -24,10 +24,11 @@
 					<a class="nav-link" href="#prosecco-wall">🥂 The Prosecco Wall</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" data-toggle="modal" data-target="#contactUsModal" href="#contact-us">Contact Us</a>
+					<a class="nav-link" data-toggle="modal" data-target="#contactUsModal" href="#contact-us">Contact
+						Us</a>
 				</li>
 
-				
+
 
 				<!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLG" role="button"
@@ -77,5 +78,13 @@
 			$(".newnavbar").addClass("solidnav");
 		}
 
+	});
+</script>
+
+<script>
+	$(".nav-link").click(function () {
+		$(".navbar-collapse").removeClass("show");
+		$(".navbar-toggler").addClass("collapsed");
+		
 	});
 </script>

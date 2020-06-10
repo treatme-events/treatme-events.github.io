@@ -2,6 +2,7 @@
 layout: home
 title:  "Event Confectionary Company 🥂🍩"
 subtitle: "Hire for Private or Corporate events"
+seotitle: "Treat Me 🥂🍩 Event Confectionary Company"
 date:  2017-03-11
 category: post main website 
 category-type: Website

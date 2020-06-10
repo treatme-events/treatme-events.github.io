@@ -17,8 +17,8 @@ published: true
 permalink: /the-doughnut-wall/
 ---
 
-<div class="row pt-5 pb-5">
-    <div class="col-12 col-sm-6 center mb-5">
+<div class="row">
+    <div class="col-12 col-sm-6 center mb-4">
         <div>
             <h3 class="mb-3">🍩 60 Doughnuts</h3>
             <p>Double stacked x30 🍩 for double the yum! </p>
@@ -28,19 +28,19 @@ permalink: /the-doughnut-wall/
             </a>
         </div>
     </div>
-    <div class="col-12 col-sm-6 order-first mb-5">
+    <div class="col-12 col-sm-6 order-first mb-4">
         <img class="image-shadow" style="width: 100%;" src="{{site.baseurl}}/assets/images/doughnuts/d4.jpg" alt="">
     </div>
 </div>
 
 <div class="row pb-5">
-<div class="col-12 col-sm-4 order-first mb-5">
+<div class="col-12 col-sm-4 order-first ">
         <img class="image-shadow" style="width: 100%;" src="{{site.baseurl}}/assets/images/doughnuts/d1.jpg" alt="">
     </div>	
-    <div class="col-12 col-sm-4 order-first mb-5">
+    <div class="col-12 col-sm-4 order-first ">
         <img class="image-shadow" style="width: 100%;" src="{{site.baseurl}}/assets/images/doughnuts/d2.jpg" alt="">
     </div>	
-    <div class="col-12 col-sm-4 order-first mb-5">
+    <div class="col-12 col-sm-4 order-first ">
         <img class="image-shadow" style="width: 100%;" src="{{site.baseurl}}/assets/images/doughnuts/d3.jpg" alt="">
     </div>	
 </div>

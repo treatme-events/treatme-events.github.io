@@ -81,6 +81,7 @@ p a:visited {
 
 .image-shadow {
   box-shadow: 14px 14px #f2c396;
+  transition: ease box-shadow 5s;
 }
 
 @media(max-width:425px) {

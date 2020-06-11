@@ -17,7 +17,7 @@ published: true
 permalink: /
 ---
 
-## Treat Me
+<h2 class="text-white">Treat Me</h2>
 
 <h3 style="color: #cdd1d4;">The perfect addition for your event.</h3>
 

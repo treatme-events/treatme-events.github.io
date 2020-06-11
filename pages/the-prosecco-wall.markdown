@@ -1,8 +1,8 @@
 ---
 layout: default-page
-title:  "🥂 The Prosecco Wall"
+title:  "The Prosecco Wall"
 subtitle: "Hire for Private or Corporate events"
-seotitle: "The Prosecco Wall 🥂 Treat Me"
+seotitle: "The Prosecco Wall | Treat Me"
 category: jekyll post 
 category-type: product
 img: prosecco-banner.jpg
@@ -23,7 +23,7 @@ permalink: /the-prosecco-wall/
 			</div>
 			<div class="col-12 col-sm-6 center mb-4 wow animate fadeIn" data-wow-delay="1s">
 				<div class="content">
-					<h3 class="mb-3">🥂 The Prosecco Wall</h3>
+					<h3 class="mb-3">The Prosecco Wall</h3>
 					<p>Planning your summer event or looking for a lovely addition to your dream wedding?</p>
 						<p>Our 6.5ft tall Prosecco Wall holds 40 glasses and we can personalise to suit your event</p>
 						<a data-toggle="modal" data-target="#prosecco-wall-contact" class="btn btn-primary text-white">

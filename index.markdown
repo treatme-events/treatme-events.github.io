@@ -1,8 +1,8 @@
 ---
 layout: home
-title:  "Event Confectionary Company 🥂🍩"
+title:  "Event Confectionary Company"
 subtitle: "Hire for Private or Corporate events"
-seotitle: "Treat Me 🥂🍩 Event Confectionary Company"
+seotitle: "Treat Me | Event Confectionary Company"
 category: post main website 
 category-type: Website
 img: d-banner.jpg

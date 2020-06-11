@@ -116,14 +116,13 @@ a {
 
 p a:link,
 p a:visited {
-    border-bottom: 2px solid #0f6aea;
+    border-bottom: none!important;
     transition: 0.3s ease;
 }
 
-p a:link:hover,
-p a:visited:hover {
-    border-bottom: 2px solid #000;
-    color: #000;
+p a:link:hover, p a:visited:hover {
+    border-bottom: 2px solid #ffcfa2;
+    color: #ffcfa2;
     transition: 0.3s ease;
 }
 

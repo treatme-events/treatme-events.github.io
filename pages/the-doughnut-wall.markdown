@@ -1,8 +1,8 @@
 ---
 layout: default-page
-title:  "🍩 The Doughnut Wall"
+title:  "The Doughnut Wall"
 subtitle: "Hire for Private or Corporate events"
-seotitle: "The Doughnut Wall 🍩 Treat Me"
+seotitle: "The Doughnut Wall | Treat Me"
 category: jekyll post 
 category-type: product
 img: the-doughnut-banner.jpg
@@ -20,8 +20,8 @@ permalink: /the-doughnut-wall/
 <div class="row">
     <div class="col-12 col-sm-6 center mb-4 wow animate fadeIn" data-wow-delay="1s"> 
         <div>
-            <h3 class="mb-3">🍩 60 Doughnuts</h3>
-            <p>Double stacked x30 🍩 for double the yum! </p>
+            <h3 class="mb-3">60 Doughnuts</h3>
+            <p>Double stacked x30 for double the yum! </p>
                 <p>We can personalise the wall and colour match the doughnuts to suit your event too!.</p>
             <a data-toggle="modal" data-target="#doughnut-wall-contact" class="btn btn-primary text-white">
                 Enquire Now

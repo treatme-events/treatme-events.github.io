@@ -6,11 +6,12 @@
   <meta name="description"
     content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width">
-  <meta name="theme-color" content="#efa967" />
 
   <!-- og -->
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
+  <meta name="theme-color" content="#424242" />
+  <meta property="og:image" content="{{ site.url }}/assets/images/brand/og-image.jpg" />
   <meta property="og:title"
     content="{%if page.seotitle %}{{ page.seotitle }}{%else page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description"
@@ -27,7 +28,6 @@
   <link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon/favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="{{ site.url }}/assets/images/favicon/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
 
   <meta name="description"
     content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">

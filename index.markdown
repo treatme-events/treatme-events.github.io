@@ -5,7 +5,7 @@ subtitle: "Hire for Private or Corporate events"
 seotitle: "Treat Me | Event Confectionary Company"
 category: post main website 
 category-type: Website
-img: d-banner.jpg
+img: banner.jpg
 video: 
 author: matthew_lean
 description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nobis, eos eveniet atque sapiente cupiditate impedit soluta, beatae iure excepturi reprehenderit facere, architecto maxime necessitatibus ab. Accusantium quam error illum? 

@@ -1,7 +1,7 @@
 ---
 layout: home
-title:  "Event Confectionary Company"
-subtitle: "Hire for Private or Corporate events"
+title:  "Event Walls & Confectionary Company"
+subtitle: "Hire for Private and Corporate Events"
 seotitle: "Treat Me | Event Confectionary Company"
 category: post main website 
 category-type: Website
@@ -19,7 +19,7 @@ permalink: /
 
 ## Treat Me
 
-<h3 style="color: #cdd1d4;">The perfect addition for your event.</h3>
+<h3 style="color: #cdd1d4;">Making that special moment, even more memorable</h3>
 
-Short description about us... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nobis, eos eveniet atque sapiente cupiditate impedit soluta, beatae iure excepturi reprehenderit facere, architecto maxime necessitatibus ab. Accusantium quam error illum?
+A family run events confectionary company based in Southampton. We provide event walls and confectionary for private parties and corporate events. We feel enhancing those special moments are important, for capturing a lifetime of memories.
 

@@ -51,7 +51,7 @@ $light: 300;
 $regular: 400;
 $bold: 700;
 
-p {
+p , ul li{
     color: #737f8d;
     font-family: $font-primary;
     letter-spacing: .01em;
@@ -199,4 +199,20 @@ p a:link:hover, p a:visited:hover {
     background-color: #efa967!important;
 }
 
+.alert-primary{
+    background-color: #fbe7d5!important;
+    color:#efa967!important;
+    border-color:unset!important;
+}
 
+.bg-primary-lighter{
+    background-color: #fff2e6;
+}
+
+.price-box ul {
+    list-style: none;
+    padding-left:0px;
+}
+.price-box ul li{
+    margin-bottom: 1rem;
+}

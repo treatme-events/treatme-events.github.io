@@ -1,23 +1,4 @@
----
-layout: doughnut-page
-title:  "The Doughnut Wall"
-subtitle: "Hire for Private or Corporate events"
-seotitle: "The Doughnut Wall | Treat Me"
-category: jekyll post 
-category-type: product
-img: the-doughnut-banner.jpg
-video: 
-author: matthew_lean
-description: Looking for a fun, original way to entertain your guests, then The Doughnut Wall is for you. Our hand-made wall with gold metal trim, is the sweetest addition to any event.
-# Extras.
-color-1: 4c4c4c
-color-2: f2f2f200
-comments: true
-published: true
-permalink: /the-doughnut-wall/
----
-
-<div class="row">
+I"<div class="row">
     <div class="col-12 col-sm-6 center mb-4 wow animate fadeIn" data-wow-delay="1s"> 
         <div>
             <h3 class="mb-3">The Sweetest Addition</h3>
@@ -31,8 +12,8 @@ permalink: /the-doughnut-wall/
         </div>
     </div>
     <div class="col-12 col-sm-6 order-first mb-4">
-        <img class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="{{site.baseurl}}/assets/images/doughnuts/d4.jpg" alt="">
+        <img class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="/assets/images/doughnuts/d4.jpg" alt="" />
     </div>
 </div>
 
-
+:ET

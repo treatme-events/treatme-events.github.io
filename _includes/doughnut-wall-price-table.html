@@ -1,14 +1,14 @@
-<div class="price jumbotron-fluid bg-light mb-0">
+<div class="price jumbotron-fluid bg-dark">
     <div class="container">
         <div class="row pt-5 pb-5 row-eq-height">
-            <div class="col-lg-12 text-center wow animate fadeIn" data-wow-delay="1s">
-                <h2 class="mb-4">Doughnut Wall Pricing</h2>
+            <div class="col-lg-12 text-center wow animate fadeIn pt-4 pb-3" data-wow-delay="1s">
+                <h2 class="mb-4 text-white">Doughnut Wall Pricing</h2>
             </div>
 
             <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="1s">
-                <div class="price-box bg-white mb-4">
+                <div class="price-box mb-4">
                     <span>Package 1</span>
-                    <h3 style="font-size:3em;">£99</h3>
+                    <h3 class="text-white" style="font-size:3em;">£99</h3>
                     <hr class="mt-4 mb-4">
                     <ul>
                         <li>The Doughnut Wall (personalised with balloons, flowers or garlands)</li>
@@ -24,9 +24,9 @@
             </div>
 
             <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="1s">
-                <div class="price-box bg-white mb-4">
+                <div class="price-box mb-4">
                     <span>Package 2</span>
-                    <h3 style="font-size:3em;">£120</h3>
+                    <h3 class="text-white" style="text-white">£120</h3>
                     <hr class="mt-4 mb-4">
                     <ul>
                         <li>The Doughnut Wall (personalised with balloons, flowers or garlands)</li>
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-12 wow animate fadeIn" data-wow-delay="1s">
+            <div class="col-lg-12 pb-3 wow animate fadeIn" data-wow-delay="1s">
                 <div class="alert alert-primary" role="alert">
                     + £10 for Krispy Kreme Doughnuts
                 </div>
@@ -57,21 +57,19 @@
 </div>
 
 <style>
-    .bullet-points li {
-        padding: 20px 0;
-    }
-
     .price-box {
+        background-color: #333;
+        color: #fff;
         padding: 2em;
         transition: ease all .3s;
     }
 
     .price-box hr{
-        border-top: 14px solid rgb(248, 249, 250);
+        border-top: 14px solid rgb(66, 66, 66);
     }
 
     .price-box:hover{
-        box-shadow: 14px 14px #f2c396;
+        box-shadow: 14px 14px #3c3c3c;
         transform: translate(-14px,-14px);
     }
 
@@ -80,7 +78,21 @@
     }
     .alert-primary{
         color: #efa967;
-    background-color: #fefefe!important;
-    border: solid 2px #f9e4d0!important;
+    background-color: #3c3c3c!important;
+    border: solid 2px #333333!important;
+    }
+
+    .price-box h3{
+       font-size:3em;
+    }
+
+    @media(max-width:425px){
+        .price-box h3{
+            font-size: 2rem!important;
+        }
+    }
+
+    .price-box span{
+        color: #eea867;
     }
 </style>

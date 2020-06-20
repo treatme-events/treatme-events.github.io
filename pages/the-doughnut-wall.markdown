@@ -2,7 +2,7 @@
 layout: doughnut-page
 title:  "The Doughnut Wall"
 subtitle: "Hire for Private or Corporate events"
-seotitle: "The Doughnut Wall | Treat Me"
+seotitle: "The Doughnut Wall | Treat Me - Event Walls & Confectionery Company"
 category: jekyll post 
 category-type: product
 img: the-doughnut-banner.jpg

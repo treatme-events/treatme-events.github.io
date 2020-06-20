@@ -1,25 +1,6 @@
----
-layout: prosecco-page
-title:  "The Prosecco Wall"
-subtitle: "Hire for Private or Corporate events"
-seotitle: "The Prosecco Wall | Treat Me - Event Walls & Confectionery Company"
-category: jekyll post 
-category-type: product
-img: prosecco-banner.png
-video: 
-author: matthew_lean
-description: A show stopping idea for that insta-worthy moment. Our beautifully hand-crafted wall, with artificial green foliage and flowers is the perfect addition for any special occasion.
-# Extras.
-color-1: 4c4c4c
-color-2: f2f2f200
-comments: true
-published: true
-permalink: /the-prosecco-wall/
----
-
-<div id="prosecco-wall" class="row ">
+I"é<div id="prosecco-wall" class="row ">
 			<div class="col-12 col-sm-6 mb-4">
-				<img class="image-shadow wow animate fadeInLeft" data-wow-delay="1s" style="width: 100%;" src="/assets/images/home/pro-wall.jpg" alt="">
+				<img class="image-shadow wow animate fadeInLeft" data-wow-delay="1s" style="width: 100%;" src="/assets/images/home/pro-wall.jpg" alt="" />
 			</div>
 			<div class="col-12 col-sm-6 center mb-4 wow animate fadeIn" data-wow-delay="1s">
 				<div class="content">
@@ -34,5 +15,4 @@ permalink: /the-prosecco-wall/
 	</div>
 </div>
 
-
-
+:ET

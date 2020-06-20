@@ -90,7 +90,9 @@ p a:visited {
 
 @media(max-width:425px) {
   .image-shadow {
-    box-shadow: 4px 4px #f2c396;
+    width: 95%!important;
+    padding-left: 0px;
+    display: initial!important;
   }
 }
 

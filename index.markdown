@@ -8,7 +8,7 @@ category-type: Website
 img: banner.jpg
 video: 
 author: matthew_lean
-description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nobis, eos eveniet atque sapiente cupiditate impedit soluta, beatae iure excepturi reprehenderit facere, architecto maxime necessitatibus ab. Accusantium quam error illum? 
+description: A family run events confectionary company based in Southampton. We provide event walls and confectionery for private parties and corporate events. We feel enhancing those special moments are important, for capturing a lifetime of memories. 
 # Extras.
 color-1: 4c4c4c
 color-2: f2f2f200

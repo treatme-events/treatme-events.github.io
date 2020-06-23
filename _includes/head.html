@@ -12,6 +12,8 @@
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#424242" />
   <meta property="og:image" content="{{ site.url }}/assets/images/brand/og-image.jpg" />
+  <meta property="og:image:width" content="1920" />
+  <meta property="og:image:height" content="1080" />
   <meta property="og:title"
     content="{%if page.seotitle %}{{ page.seotitle }}{%else page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description"
@@ -52,16 +54,17 @@
   </script>
 
   <!-- Animate.css -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css" type="text/css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css" type="text/css"
+    rel="stylesheet">
 
   <!-- wowjs -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
   <script>
-  new WOW().init();
+    new WOW().init();
 
-$('.reset').click(function(){
-  new WOW().init();
-})
+    $('.reset').click(function () {
+      new WOW().init();
+    })
   </script>
 
   <!-- Featherlight -->

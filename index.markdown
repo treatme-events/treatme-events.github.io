@@ -7,7 +7,7 @@ category: post main website
 category-type: Website
 img: banner.jpg
 video: 
-author: matthew_lean
+author: Treat Me
 description: A family run events confectionary company based in Southampton. We provide event walls and confectionery for private parties and corporate events. We feel enhancing those special moments are important, for capturing a lifetime of memories. 
 # Extras.
 color-1: 4c4c4c

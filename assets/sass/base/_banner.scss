@@ -337,3 +337,20 @@
     position: absolute;
   }
 }
+
+.navbar .new{
+  padding: .1rem .6rem;
+  top: 6px;
+  right: 15px;
+  font-size: .8em;
+}
+@media (max-width:990px){
+  .navbar .new{
+    padding: .4rem .8rem;
+    top: -6px;
+    right: 0px;
+    left: 0;
+    max-width: 50px;
+    margin: 0 auto;
+  }
+}

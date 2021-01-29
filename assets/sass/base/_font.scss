@@ -21,10 +21,10 @@ $light-grey: #eceef1; // background grey
 $light-light-grey-blue: #f8faff;
 $light-grey-blue: #eef2f9;
 $dark-grey: #333333; // default font colour
-$primary: #efa967;
+$primary: #e3b73d;
 $primary-lighter: #90bdff;
 $primary-lighter-lighter: #deebfe;
-$primary-dark-shade: #c28144;
+$primary-dark-shade: #c59c2d;
 $primary-darker-shade: darken($primary-dark-shade, 10%); // Categories
 $green: #5cc112;
 $green-lighter: #d6efc4;
@@ -140,6 +140,10 @@ p a:link:hover, p a:visited:hover {
     align-items: center;
 }
 
+.yellow{
+    color:$yellow
+}
+
 .badge span {
     display: inline-block;
     font-size: 14px;
@@ -182,26 +186,26 @@ p a:link:hover, p a:visited:hover {
     background-color: $primary!important;
 }
 .btn-primary:hover{
-    background-color: $primary-darker-shade!important;
+    background-color: $yellow-darnker!important;
     border-color: $primary!important;
 }
 
 .btn-secondary {
-    color: #efa967!important;
+    color: $yellow-darnker !important;
     border: solid 2px!important;
-    border-color: #efa967!important;
+    border-color: $yellow-darnker!important;
     background-color: unset!important
 }
 
 .btn-secondary:hover {
     color: #fff!important;
     border: solid 2px!important;
-    background-color: #efa967!important;
+    background-color: $yellow-darnker !important;
 }
 
 .alert-primary{
     background-color: #fbe7d5!important;
-    color:#efa967!important;
+    color: $primary!important;
     border-color:unset!important;
 }
 

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <div class="page-wrapper">
+
+    {% include header-main.html %}
+
+    <div class="splash-60" id="hero-header"
+      style="background-image: url({{site.baseurl}}/assets/images/banners/{{page.img}}); background-size: cover;position: relative;">
+
+      <div class="splash-video-wrapper">
+        {% if page.color-1 %}
+        <div
+          style="background-image: linear-gradient(to bottom right, #{{ page.color-1 | escape }}, #{{ page.color-2 | escape }});"
+          class="project-image-gradient"></div>
+        {% else %}
+        <div style="background-image: linear-gradient(270deg,#00d0ff,#036aed);" class="project-image-gradient"></div>
+        {% endif %}
+
+        {% if page.video %}
+        <video class="splash-video" playsinline="" autoplay="" muted="" loop=""
+          poster="{{site.baseurl}}/assets/images/banners/{{page.img}}" id="bgvid">
+          <source class="splash-video" src="{{site.baseurl}}/assets/video/{{page.video}}" type="video/mp4">
+        </video>
+        {% endif %}
+
+      </div>
+
+
+      <div class="splash-overlay container">
+        <div class="header-content-container">
+          <div class="splash-headline">
+            <h1 class="page-title text-white wow animate fadeInDown" data-wow-delay=".5s">{{ page.title }}</h1>
+            <p class="description text-white mt-2 ml-0 wow animate fadeInDown" data-wow-delay="1s">
+              {{ page.description | escape }}</p>
+            <!-- <h2 class="project-subtitle">{{ page.subtitle }}</h2>
+           
+            <p class="date">{{ page.date | date_to_long_string }}</p>
+            <div class="badge mt-2">
+              <span style="background-color: #{{page.color-1}};">{{ page.category-type }}</span>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include sub-banner.html %}
+
+    <div class="post container mt-5">
+      {{ content }}
+    </div>
+
+    {% include gin-rum-pricing-table.html %}
+
+    <div class="post container mt-5">
+
+      <div class="row pb-5">
+        <div class="col-12 col-sm-6 order-first">
+          <img alt="Gin Box Treat Me Southampton" class="image-shadow wow animate fadeInLeft" data-wow-delay="1s" style="width: 100%;"
+            src="{{site.baseurl}}/assets/images/gin-rum/gin-kit-treat-me-southampton.jpg" alt="">
+        </div>
+        <div class="col-12 col-sm-6 order-first">
+          <img alt="Rum Box Treat Me Southampton" class="image-shadow wow animate fadeInLeft" data-wow-delay="1.25s" style="width: 100%;"
+            src="{{site.baseurl}}/assets/images/gin-rum/ginger-beer-box.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
+		<!-- Modals -->
+		{% include contact-modal.html %}
+
+		{% include doughnut-modal.html %}
+		
+		{% include prosecco-modal.html %}
+
+		{% include gin-rum-modal.html %}
+
+</html>

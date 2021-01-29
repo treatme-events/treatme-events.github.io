@@ -8,7 +8,7 @@ html {
 }
 
 a{
-  color:#efa967;
+  color:#e3b73d;
 }
 
 .center {
@@ -19,6 +19,30 @@ a{
 
 .soft-edges {
   border-radius: .3rem;
+}
+
+.relative{
+  position: relative;
+}
+
+.new{
+  position: absolute;
+  font-size: 1rem;
+  background-color: #ff6f6f;
+  padding: .4rem .8rem;
+  top: -10px;
+  right: -60px;
+  border-radius: 100px;
+  color: #fff;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
 
 .btn{
@@ -84,7 +108,7 @@ p a:visited {
 }
 
 .image-shadow {
-  box-shadow: 14px 14px #f2c396;
+  box-shadow: 14px 14px $primary;
   transition: ease box-shadow 5s;
 }
 
@@ -128,5 +152,5 @@ html .bg-dark{
   background-color: #424242!important;
 }
 .footer a{
-  color:#efa967;
+  color:$primary;
 }

@@ -52,18 +52,24 @@
       {{ content }}
     </div>
 
+    {% include testimonials.html %}
+
     {% include gin-rum-pricing-table.html %}
 
     <div class="post container mt-5">
 
       <div class="row pb-5">
-        <div class="col-12 col-sm-6 order-first">
-          <img alt="Gin Box Treat Me Southampton" class="image-shadow wow animate fadeInLeft" data-wow-delay="1s" style="width: 100%;"
-            src="{{site.baseurl}}/assets/images/gin-rum/gin-kit-treat-me-southampton.jpg" alt="">
+        <div class="col-12 col-sm-4 order-first">
+          <img alt="Gin Box Treat Me Southampton" class="image-shadow wow animate fadeInLeft" data-wow-delay="1s"
+            style="width: 100%;" src="{{site.baseurl}}/assets/images/gin-rum/gin-kit-treat-me-southampton.jpg" alt="">
         </div>
-        <div class="col-12 col-sm-6 order-first">
-          <img alt="Rum Box Treat Me Southampton" class="image-shadow wow animate fadeInLeft" data-wow-delay="1.25s" style="width: 100%;"
-            src="{{site.baseurl}}/assets/images/gin-rum/ginger-beer-box.jpg" alt="">
+        <div class="col-12 col-sm-4 order-first">
+          <img alt="Gin and Rum Experience Boxes Treat Me Southampton" class="image-shadow wow animate fadeInLeft" data-wow-delay="1.25s"
+            style="width: 100%;" src="{{site.baseurl}}/assets/images/gin-rum/gin-and-rum-experience-treat-me.jpg" alt="">
+        </div>
+        <div class="col-12 col-sm-4 order-first">
+          <img alt="Rum Box Treat Me Southampton" class="image-shadow wow animate fadeInLeft" data-wow-delay="1.25s"
+            style="width: 100%;" src="{{site.baseurl}}/assets/images/gin-rum/ginger-beer-box.jpg" alt="">
         </div>
       </div>
     </div>
@@ -76,13 +82,13 @@
 
 </body>
 
-		<!-- Modals -->
-		{% include contact-modal.html %}
+<!-- Modals -->
+{% include contact-modal.html %}
 
-		{% include doughnut-modal.html %}
-		
-		{% include prosecco-modal.html %}
+{% include doughnut-modal.html %}
 
-		{% include gin-rum-modal.html %}
+{% include prosecco-modal.html %}
+
+{% include gin-rum-modal.html %}
 
 </html>

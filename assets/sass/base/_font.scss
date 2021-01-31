@@ -51,6 +51,10 @@ $light: 300;
 $regular: 400;
 $bold: 700;
 
+.text-yellow{
+    color:$primary!important;
+}
+
 p , ul li{
     color: #737f8d;
     font-family: $font-primary;
@@ -176,6 +180,10 @@ p a:link:hover, p a:visited:hover {
     background-image: -webkit-gradient(linear, left bottom, left top, from(#26ffae), to(#26ffae));
     background-image: linear-gradient(0deg, #efa967 0, #efa967);
     border: none;
+}
+
+.bg-none{
+    background-color: rgba(0, 0, 0, 0)!important;
 }
 
 .btn-primary{

@@ -1,23 +1,4 @@
----
-layout: gin-rum-page
-title:  "Gin and Rum Tasting Experience"
-subtitle: "Hire for Private or Corporate events"
-seotitle: "Gin and Rum Tasting Experience | Treat Me - Event Walls & Confectionery Company"
-category: jekyll post 
-category-type: product
-img: gin-tasting-kit-southampton.jpg
-video: 
-author: matthew_lean
-description: Try our unique Gin and Rum from all over the world and experience the different flavours and botanicals while in the comforts of your own home!
-# Extras.
-color-1: 4c4c4c
-color-2: f2f2f200
-comments: true
-published: true
-permalink: /gin-and-rum-tasting-experience/
----
-
-<div class="row">
+I"µ<div class="row">
     <div class="col-12 col-sm-6 center mb-4 wow animate fadeIn" data-wow-delay="1s"> 
         <div>
             <h3 class="mb-3">Gin Tasting Experience</h3>
@@ -29,13 +10,13 @@ permalink: /gin-and-rum-tasting-experience/
         </div>
     </div>
     <div class="col-12 col-sm-6 order-first mb-4">
-        <img alt="Gin Tasting Experience Southampton Treat Me" class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="{{site.baseurl}}/assets/images/gin-rum/gin-tasting-bottles.jpg" alt="">
+        <img alt="" class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="/assets/images/gin-rum/gin-tasting-bottles.jpg" />
     </div>
 </div>
 
 <div class="row">
     <div class="col-12 col-sm-6 order-first mb-4">
-        <img class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="{{site.baseurl}}/assets/images/gin-rum/gin-box.jpg" alt="">
+        <img class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="/assets/images/gin-rum/gin-box.jpg" alt="" />
     </div>
     <div class="col-12 col-sm-6 center mb-4 wow animate fadeIn" data-wow-delay="1s"> 
         <div>
@@ -49,4 +30,4 @@ permalink: /gin-and-rum-tasting-experience/
     </div>
 </div>
 
-
+:ET

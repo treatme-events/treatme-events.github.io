@@ -29,7 +29,7 @@ permalink: /gin-and-rum-tasting-experience/
         </div>
     </div>
     <div class="col-12 col-sm-6 order-first mb-4">
-        <img alt="Gin Tasting Experience Southampton Treat Me" class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="{{site.baseurl}}/assets/images/gin-rum/gin-tasting-bottles.jpg" alt="">
+        <img alt="Gin Tasting Experience Southampton Treat Me" class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="{{site.baseurl}}/assets/images/gin-rum/treat-me-box.jpg" alt="">
     </div>
 </div>
 

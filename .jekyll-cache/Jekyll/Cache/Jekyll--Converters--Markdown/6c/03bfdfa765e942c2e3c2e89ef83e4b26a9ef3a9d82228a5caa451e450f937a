@@ -1,4 +1,4 @@
-I"¾<div class="row">
+I"®<div class="row">
     <div class="col-12 col-sm-6 center mb-4 wow animate fadeIn" data-wow-delay="1s"> 
         <div>
             <h3 class="mb-3">Gin Tasting Experience</h3>
@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="col-12 col-sm-6 order-first mb-4">
-        <img class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="/assets/images/gin-rum/gin-kit-treat-me-southampton.jpg" alt="" />
+        <img alt="" class="image-shadow wow animate fadeInRight" data-wow-delay="1s" style="width: 100%;" src="/assets/images/gin-rum/treat-me-box.jpg" />
     </div>
 </div>
 
